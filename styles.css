@@ -49,6 +49,22 @@
     background: var(--blue);
     color: var(--white);
 }
+.block_openai_chat .openai_message.bot a {
+    color:white;
+    text-decoration:underline;
+}
+.block_openai_chat .openai_message.bot ol,
+.block_openai_chat .openai_message.bot ul{
+    padding-inline-start: 20px;
+}
+.block_openai_chat .openai_message.bot table {
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    min-width: 100%;
+}
+.block_openai_chat .openai_message.bot table td {
+    border: 1px solid #aaa;
+}
 .block_openai_chat .openai_message.loading {
     animation: block_openai_chat_thinking 1s ease infinite;
 }
